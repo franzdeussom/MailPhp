@@ -1,0 +1,132 @@
+  * {
+    
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  html,
+  body {
+    height: 99%;
+    width: 99%;
+  }
+
+  body {
+    font-size: large;
+    background-color: #e0e0e0;
+    max-width: 99%;
+    max-height: 99%;
+    min-height: 99%;
+    min-width: 99%;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0px auto;
+    position: relative;
+    overflow-x: hidden;
+    background-color: lightblue;
+    min-height: 100%;
+    height: auto;
+    font-weight: bold;
+  }
+  .warning{
+    font-size: 19px;
+    display: block;
+  }
+
+  .align-ref{
+    text-align: left;
+
+  }
+  .ref{
+    color: red;
+    font-size: 25px;
+    margin-bottom: 10px;
+    animation: Test 2s infinite;
+
+  }
+ 
+  table, tr, td{
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  input[type='submit'] {
+
+    margin-top: 15px;
+    width: 80%;
+    color: white;
+    background-color: #2B3BCF;
+    font-size: 20px;
+    padding: 15px;
+    box-shadow: 2px 8px 11px #2b3bcf;
+    cursor: pointer;
+    border-color: cadetblue;
+
+  }
+
+  input[type='submit']:focus{
+     background-color: #41B77F;
+  }
+
+   input[type='submit']:hover{
+     background-color: #41B77F;
+     box-shadow: 2px 8px 11px #41b77f;
+  }
+
+  input[type='text'], input[type='password'] {
+    width: 100%;
+    height: 30px;
+    border-radius: 5%;
+    border: none;
+    outline: none;
+    background-color: #EEE;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  .entry:focus{
+    background-color: #41B77F;
+  }
+
+  hr{
+    background: linear-gradient(#41b77f, blue);
+    border-radius: 50%;
+  }
+  #Query-statement{
+    width: 85%;
+    height: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #00AC28;
+    border-radius: 5%;
+    color: white;
+    opacity: 0.4;
+    transition: opacity 1s;
+    display: none;
+  }
+  .fcb{
+    width: 15%;
+    height: 15%;
+    margin-top: 15px;
+    justify-items: center;
+  }
+  span.fbk{
+    color: #2B3BCF;
+  }
+  legend{
+    font-size: 20px;
+
+  }
+  @keyframes Test{
+    0%{
+      opacity: 1;
+    }
+    50%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
